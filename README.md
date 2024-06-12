@@ -20,5 +20,6 @@ This app is to track the real stocks via API from FMP (Financial Modeling Prep).
 - Install SQL server, and replace SQL server settings in "ConnectionStrings:DefaultConnection" (api/appsettings.json)
 - Visit https://site.financialmodelingprep.com/ , and register API, then replace the API key at "FMPKey" (api/appsettings.json) and at "REACT_APP_API_KEY" (frontend/.env)
 - cd ./api -> from command line run: dotnet watch run
-- cd ./frontend -> from command line run: npm start
+- cd ./frontend -> from command line run: npm install 
+- cd ./frontend -> from command line run: npm start 
 
